@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+    
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="text-container">
+                <h1>Hi, I'm Shyam Patoliya</h1>
+                <p>I'm a Computer Science Engineer passionate about web development, problem-solving, and building innovative tech solutions. Welcome to my portfolio!</p>
+                <a href="#about" class="home-btn">Learn More About Me</a>
+            </div>
+            <div class="photo-container">
+                <img src="https://i.postimg.cc/kGXxdyfw/Pics-Art-07-27-08-39-39.png" alt="Shyam" class="profile-photo">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- About Me Section -->
+    <section id="about" class="aboutme-section" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate third-year Computer Science Engineering student at Symbiosis Institute of Technology. My journey in tech has been fueled by a deep curiosity and a drive to create innovative solutions. 
+        I specialize in backend development, software engineering, data analysis and I thrive on turning ideas into functional applications.</p>
+
+        <p>In this portfolio, you will find a collection of my projects that showcase my skills in programming, problem-solving, and design. Each project reflects my commitment to quality and my eagerness to tackle real-world challenges.
+            Whether it's developing responsive web applications, engaging in data-driven projects, or collaborating in dynamic team environments, I strive to push the boundaries of what's possible.</p>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>2022 -> Present</h3>
+                <p>Currently @ SIT, Pune pursuing Btech in Computer Science Engineering.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>2020 - 2022</h3>
+                <p>Completed junior college from JSPM's Prodgigy Public School</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-card" onclick="toggleDetails(this)">
+            <h3>Smart Pet Feeder</h3>
+            <p>Transform your feeding system into a smart solution with advanced pressure sensor. Stay informed in real-time with pressure sensor accurate updates on food levels.</p>
+            <div class="project-details">
+                <p>More details about this project</p>
+                <a href="https://github.com/Shyam-Patoliya/PBL-smart-pet-feeder" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+            <h3>Door Lock System</h3>
+            <p>This project presents a home door biometric authentication system using a solenoid lock, fingerprint sensor, and Arduino Uno microcontroller.
+                The aim is to enhance home security beyond traditional lock and key systems by leveraging the reliability and uniqueness of fingerprint biometrics. 
+                The system uses an Arduino Uno microcontroller to process fingerprint data and control a solenoid lock. If the input fingerprint data matches the stored fingerprint data, the Arduino Uno triggers the solenoid lock to unlock the door.</p>
+            <div class="project-details">
+                <p>More details about this project.</p>
+                <a href="https://github.com/Shyam-Patoliya/Door_Lock_System" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+            <h3>Hospital Management System</h3>
+            <p>Developed a GUI-based Hospital Management System using Java for the frontend interface and MySQL for database management.
+                The system enables efficient handling of patient records, doctor profiles, appointments, billing, and inventory management.
+                Enhanced operational efficiency by providing real-time data access, streamlined record-keeping, and an intuitive interface for end-users.</p>
+            <div class="project-details">
+                <p>More details about this project.</p>
+                <a href="https://github.com/Shyam-Patoliya/Hospital-Management-System" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+            <h3>Cricket Database</h3>
+            <p>Cricket Database GUI Project: Developed a user-friendly graphical user interface (GUI) for a cricket database, enabling users to efficiently manage and access player statistics, match records, and team information.
+                Utilized Java as frontend and MySql as a backend to design an intuitive interface that allows users to search, add, and update records seamlessly.</p>
+            <div class="project-details">
+                <p>More details about this project.</p>
+                <a href="https://github.com/Shyam-Patoliya/Cricket-Database-Management" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card" data-aos="fade-up">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>Java</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>SQL</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>C/C++</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <h3>ReactJS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+    
+    <section id="achievements" class="achievements-section">
+        <h2>Achievements</h2>
+        <div class="achievements-container">
+            <div class="achievement-card">
+                <h3>Volunteer and Community Work</h3>
+                <p class="achievement-date">Since June, 2024</p>
+                <p class="achievement-description short-description">Contributed to cultural preservation and...</p>
+                <p class="achievement-description full-description">Contributed to cultural preservation and awareness initiatives with INTACH Pune (Indian National Trust for Art and Cultural Heritage).</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Community Engagement: Collaborating for Change</h3>
+                <p class="achievement-date">Date: August, 2024</p>
+                <p class="achievement-description short-description">Completed the Edx course of "Community...</p>
+                <p class="achievement-description full-description">Completed the Edx course of "Community Engagement: Collaborating for Change" focusing on strategies for effective community involvement and social impact.
+                    Learned about the principles of community engagement, stakeholder collaboration, and the importance of building sustainable partnerships.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Hackathons Enthusiast</h3>
+                <p class="achievement-date">Date: September 2024</p>
+                <p class="achievement-description short-description">Participated in multiple hackathons...</p>
+                <p class="achievement-description full-description">
+                    Participated in multiple hackathons, building innovative solutions within tight deadlines and collaborating with diverse, skilled teams..</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Intro to Operating Systems</h3>
+                <p class="achievement-date">Date: April, 2023</p>
+                <p class="achievement-description short-description">Successfully completed the "Introduction...</p>
+                <p class="achievement-description full-description">Successfully completed the "Introduction to Operating Systems" course, with a focus on memory management. Gained a solid understanding of key concepts, including memory allocation, paging, segmentation, and virtual memory management.</p>
+            </div>
+           
+            
+            <!-- Add more achievement cards as needed -->
+        </div>
+    </section>
+    
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, feel free to reach out via email or through my social media channels below.</p>
+        
+        <div class="contact-form-container">
+            <form action="mailto:shyampatoliya2004@gamil.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    
+        <div class="social-icons">
+            <a href="https://github.com/Shyam-Patoliya" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> <!-- GitHub icon -->
+            </a>
+            <a href="https://linkedin.com/in/Shyam-Patoliya" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> <!-- LinkedIn icon -->
+            </a>
+            <a href="https://instagram.com/shyam.patoliya.22" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i> <!-- Instagram icon -->
+            </a>
+        </div>
+    </section>
+    
+    
+    <!-- AOS Library & JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
