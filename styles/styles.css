@@ -55,6 +55,23 @@ nav a:hover {
     color: #ECF0F1; /* Light text color for readability */
 }
 
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+
 /* Home Section */
 .home-section {
     background-image: url('https://i.postimg.cc/9QtdMpfd/image.png'); /* Change this to your image */
