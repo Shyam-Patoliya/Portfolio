@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Patoliya | Portfolio</title>
+    <meta name="description" content="Portfolio of Shyam Patoliya, a passionate software developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="loading">
+    <!-- Fixed Background Canvas -->
+    <canvas id="frame-canvas"></canvas>
+
+
+
+    <!-- Foreground Content -->
+    <main id="content-layer">
+        
+        <!-- Navbar -->
+        <nav class="glass-nav">
+            <div class="nav-container">
+                <a href="#home" class="logo">SP.</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#projects" class="btn btn-primary nav-btn">View Projects</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                
+                <div class="hero-center">
+                    <div class="hero-greeting">Hi, I am</div>
+                    <div class="massive-text-container">
+                        <div class="massive-bg-text">PORTFOLIO</div>
+                        <h1 class="hero-title">Shyam Patoliya</h1>
+                    </div>
+
+                    <div class="hero-bottom-grid">
+                        <div class="hero-left">
+                        <div class="trust-badge">✦ Full-Stack & AI Software Engineer</div>
+                        <h2>Building scalable microservices & intelligent platforms</h2>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary">Start a Project <i class="fas fa-arrow-right"></i></a>
+                            <a href="#contact" class="btn btn-text">View My Work <i class="fas fa-arrow-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <div class="trust-widget glass-card">
+                            <div class="avatars">
+                                <div class="avatar"><i class="fas fa-microchip"></i></div>
+                                <div class="avatar"><i class="fas fa-code"></i></div>
+                                <div class="avatar"><i class="fas fa-database"></i></div>
+                            </div>
+                            <p><strong>B.Tech in CSE</strong><br>Symbiosis Institute of Technology.</p>
+                            <div class="widget-tags">
+                                <span>Software Engineer</span>
+                                <span>AI Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee Banner -->
+        <div class="marquee-banner">
+            <div class="marquee-content">
+                <span>FULL-STACK DEVELOPER ✦</span>
+                <span>AI INTEGRATION ✦</span>
+                <span>MICROSERVICES ARCHITECTURE ✦</span>
+                <span>MULTIPLE HACKATHON WINS ✦</span>
+                <span>CLOUD DEPLOYMENT ✦</span>
+                <span>FULL-STACK DEVELOPER ✦</span>
+                <span>AI INTEGRATION ✦</span>
+                <span>MICROSERVICES ARCHITECTURE ✦</span>
+                <span>MULTIPLE HACKATHON WINS ✦</span>
+                <span>CLOUD DEPLOYMENT ✦</span>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-container split-layout">
+                <div class="split-left">
+                    <span class="header-tag">✦ About Me</span>
+                </div>
+                <div class="split-right">
+                    <p class="about-lead">Hey there, I'm Shyam Patoliya — a Full-Stack & AI Software Engineer. I bridge the gap between aesthetic brilliance and technical precision. I build scalable microservices, intelligent AI-driven platforms, and user-centric applications designed to scale your business.</p>
+                </div>
+            </div>
+            
+            <div class="section-container" style="margin-top: 5rem;">
+                <div class="section-header-center">
+                    <span class="header-tag">✦ Professional Experience</span>
+                    <h2 class="section-title">Work History</h2>
+                </div>
+                <div class="experience-card glass-card" style="margin-bottom: 2rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; align-items: baseline;">
+                        <h3 style="font-size: 24px; margin: 0;">PLM Nordic Tech Pvt Ltd</h3>
+                        <span style="color: var(--accent-orange); font-weight: 600; font-family: 'Oswald', sans-serif; font-size: 18px; letter-spacing: 1px;">Mar 2026 – Present</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-weight: 500;">Software Engineer Intern</p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem; display: flex; gap: 12px;"><i class="fas fa-check" style="color: var(--accent-orange); margin-top: 4px;"></i> <span>Deployed Siemens Teamcenter environments; designed custom data models with BMIDE and engineered C++ ITK utilities for automation and dataset administration.</span></li>
+                        <li style="margin-bottom: 0.8rem; display: flex; gap: 12px;"><i class="fas fa-check" style="color: var(--accent-orange); margin-top: 4px;"></i> <span>Built RAG pipeline with Qdrant vector database and Claude API for knowledge management and semantic search.</span></li>
+                        <li style="margin-bottom: 0.8rem; display: flex; gap: 12px;"><i class="fas fa-check" style="color: var(--accent-orange); margin-top: 4px;"></i> <span>Automated Teamcenter ACL provisioning via Jenkins pipeline (Python, Groovy) with privilege validation and compliance mapping.</span></li>
+                        <li style="margin-bottom: 0; display: flex; gap: 12px;"><i class="fas fa-check" style="color: var(--accent-orange); margin-top: 4px;"></i> <span>Developed backend services using FastAPI, PostgreSQL and Docker for async task processing and data ETL.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <div class="section-header-center">
+                    <span class="header-tag">✦ Featured Projects</span>
+                    <h2 class="section-title">Selected Work That Delivers Results</h2>
+                </div>
+                
+                <div class="projects-grid">
+                    
+                    <div class="project-card glass-card" style="background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%), url('images/lifestream.png') center/cover;">
+                        <div class="project-info">
+                            <h3>LifeStream – Blood Donation Alert</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <p>Real-time web platform connecting blood donors and hospitals during emergencies in Pune. Integrated Twilio API for instant SMS alerts to matching donors.</p>
+                            <a href="https://github.com/Shyam-Patoliya/LifeLink-Direct.git" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-github"></i> View Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card" style="background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%), url('images/contact.png') center/cover;">
+                        <div class="project-info">
+                            <h3>Contact Identifier API</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB Atlas</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <p>RESTful API and frontend for contact search and identity reconciliation. Supports linking of primary and secondary contacts using email or phone.</p>
+                            <a href="https://github.com/Shyam-Patoliya/contactManager.git" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-github"></i> View Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card" style="background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%), url('images/iot.png') center/cover;">
+                        <div class="project-info">
+                            <h3>Smart Pet Feeder</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Hardware</span><span class="tag">IoT</span><span class="tag">Sensors</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <p>Transform your feeding system into a smart solution with advanced pressure sensors. Stay informed in real-time with accurate updates on food levels.</p>
+                            <a href="https://github.com/Shyam-Patoliya/PBL-smart-pet-feeder" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-github"></i> View Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card" style="background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%), url('images/lock.png') center/cover;">
+                        <div class="project-info">
+                            <h3>Door Lock System</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Arduino</span><span class="tag">Biometrics</span><span class="tag">C++</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <p>Home door biometric authentication system using a solenoid lock, fingerprint sensor, and Arduino Uno microcontroller to enhance home security.</p>
+                            <a href="https://github.com/Shyam-Patoliya/Door_Lock_System" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-github"></i> View Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-container">
+                <div class="section-header-center">
+                    <span class="header-tag">✦ Technical Expertise</span>
+                    <h2 class="section-title">My Capabilities</h2>
+                </div>
+                <div class="skills-grid" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="skill-category glass-card">
+                        <h3>Core & Backend</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Java</span><span class="tag">Python</span><span class="tag">SpringBoot</span><span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>Databases & Cloud</h3>
+                        <div class="skill-tags">
+                            <span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Qdrant DB</span><span class="tag">AWS</span><span class="tag">Cloud Computing</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>DevOps & Enterprise</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Docker</span><span class="tag">Jenkins</span><span class="tag">Groovy</span><span class="tag">Siemens Teamcenter</span><span class="tag">BMIDE</span><span class="tag">ITK</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" style="grid-column: 1 / -1;">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Project Management</span><span class="tag">Effective Communication</span><span class="tag">Adaptability</span><span class="tag">Team Collaboration</span><span class="tag">Customer-Centric Mindset</span><span class="tag">Attention to Detail</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section id="achievements" class="section">
+            <div class="section-container">
+                <div class="section-header-center">
+                    <span class="header-tag">✦ Recognition</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="projects-grid">
+                    
+                    <div class="cert-card glass-card">
+                        <i class="fas fa-certificate" style="font-size: 32px; color: var(--accent-orange);"></i>
+                        <div>
+                            <h3 style="font-size: 18px; margin-bottom: 4px;">AWS Academy Graduate - Cloud Foundations</h3>
+                            <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">AWS Academy (Oct 2025)</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <i class="fas fa-certificate" style="font-size: 32px; color: var(--accent-orange);"></i>
+                        <div>
+                            <h3 style="font-size: 18px; margin-bottom: 4px;">DevOps Services in Azure</h3>
+                            <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">VOIS (Vodafone Intelligent Solutions) (Oct 2025)</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <i class="fas fa-certificate" style="font-size: 32px; color: var(--accent-orange);"></i>
+                        <div>
+                            <h3 style="font-size: 18px; margin-bottom: 4px;">Introduction to Cloud Computing</h3>
+                            <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">VOIS (Vodafone Intelligent Solutions) (Oct 2025)</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <i class="fas fa-certificate" style="font-size: 32px; color: var(--accent-orange);"></i>
+                        <div>
+                            <h3 style="font-size: 18px; margin-bottom: 4px;">Spring Foundation</h3>
+                            <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">VOIS (Vodafone Intelligent Solutions) (Oct 2025)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact -->
+        <footer id="contact" class="site-footer">
+            <div class="footer-container glass-card">
+                <h2>I strive for pay attention to the smallest details</h2>
+                <div class="contact-links">
+                    <a href="mailto:shyampatoliya2004@gmail.com" class="btn btn-primary">Email Me <i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/Shyam-Patoliya" target="_blank" class="btn btn-text"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/Shyam-Patoliya" target="_blank" class="btn btn-text"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+                <p class="copyright">&copy; 2026 Shyam Patoliya. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
